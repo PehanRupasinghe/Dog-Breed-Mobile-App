@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dog Game</string>
+    <string-array name="dropdownArrayBreeds">
+        <item>affenpinscher</item>
+        <item>bloodhound</item>
+        <item>clumber</item>
+        <item>dingo</item>
+        <item>groenendael</item>
+        <item>keeshond</item>
+        <item>lhasa</item>
+        <item>malamute</item>
+        <item>newfoundland</item>
+        <item>otterhound</item>
+
+    </string-array>
+
+
+</resources>

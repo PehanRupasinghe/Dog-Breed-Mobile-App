@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD700"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnIdentifyBreed"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Identify the Breed"
+        android:textSize="19sp"
+        android:textColor="#FF4500"
+        android:background="#FFA500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIdentifyDog"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="#FFA500"
+        android:text="Identify the Dog"
+        android:textColor="#FF4500"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIdentifyBreed" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="#FFA500"
+        android:text="Search Dog Breeds"
+        android:textColor="#FF4500"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIdentifyDog" />
+
+</android.support.constraint.ConstraintLayout>

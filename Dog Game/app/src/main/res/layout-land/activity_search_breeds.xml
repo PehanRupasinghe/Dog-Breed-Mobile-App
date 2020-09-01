@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD700"
+    tools:context=".SearchBreedsActivity">
+
+    <EditText
+        android:id="@+id/insertBar"
+        android:layout_width="277dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFA500"
+        android:hint="  Search Breeds: "
+        android:inputType="textPersonName"
+        android:textColorHint="#FF4500"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/insertPhrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFA500"
+        android:onClick="OnClickBegin"
+        android:text="Submit "
+        android:textColor="#FF4500"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertBar" />
+
+    <ImageView
+        android:id="@+id/dogImg"
+        android:layout_width="287dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Image dog"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertPhrase"
+        app:srcCompat="?android:attr/panelBackground"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/search_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFA500"
+        android:onClick="onClickEnd"
+        android:text="Stop "
+        android:textColor="#FF4500"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
